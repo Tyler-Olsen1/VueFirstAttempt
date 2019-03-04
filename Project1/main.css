@@ -1,0 +1,38 @@
+.color-box {
+    width: 48px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.cart {
+    margin-right: 25px;
+    float: right;
+    border: 1px solid #d8d8d8;
+    padding: 5px 20px;
+}
+
+button {
+    margin-top: 30px;
+    border: none;
+    background-color: #1E95EA;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+
+.disabledButton {
+    background-color: #d8d8d8
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: 301px, auto;
+}
+
+.product-info {
+    grid-column: 2/3
+}
+
+.product-image {
+    grid-column: 1/2
+}
